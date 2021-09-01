@@ -1,5 +1,8 @@
-body{
+.back{
     background-image: url(../images/back1.jpg);
+}
+.back1{
+    background-image: url(../images/back2.jpg);
 }
 
 
@@ -10,4 +13,18 @@ h1{
 
 .col-md-8{
     background-color: cadetblue;
+}
+
+
+.block{
+    display: block !important;
+}
+.clicked{
+    text-decoration: line-through;
+    background-color: #222;
+}
+#changeback{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
