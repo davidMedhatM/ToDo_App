@@ -10,6 +10,8 @@ let hidetext = document.querySelector('.maintext');
 let to_show = document.querySelector('.to_show')
 to_show.onclick = function() {
   hide.classList.toggle('block')
+
+  
 }
 
 
@@ -22,7 +24,7 @@ toshow.onclick = function () {
 
   }else{
     x.innerHTML += `<div class="alert alert-primary alert-dismissible">
-    <button type="button" class="close" data-dismiss="alert"><i class="fas fa-trash-alt"></i></button>
+    <button type="button" class="close closeList" data-dismiss="alert"><i class="fas fa-trash-alt"></i></button>
     david ${res.value}</div>`;
   
       res.value="";
@@ -45,7 +47,7 @@ let check =()=>{
 
 
 document.addEventListener('click',(e)=>{
-  if (e.target.classList.contains('close') ||e.target.classList.contains('fa-trash-alt')) {
+  if (e.target.classList.contains('closeList') ||e.target.classList.contains('fa-trash-alt')) {
     check();
   }
 })
@@ -56,6 +58,8 @@ document.addEventListener('click',(e)=>{
 document.addEventListener("click",(e)=>{
   if (e.target.classList.contains('alert-primary')) {
     e.target.classList.toggle('clicked');
+  } else if(e.target.classList.contains('hidemod')) {
+      hide.classList.remove('block');
   }
   
 })
