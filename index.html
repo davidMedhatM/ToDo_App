@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body class="back">
-    
-    <h1 class="text-center">welcome to toDo app</h1>
-    <div class="text-center my-5">
-        <!-- <button class=" w-50 btn btn-outline-info to_show" data-toggle="modal" data-target="#myModal">add task from here</button> -->
-        <button class=" w-50 btn btn-outline-info to_show">add task from here</button>
-    </div>
+
+  <h1 class="text-center mt-2">Welcome to the ToDo app</h1>
+  <div class="text-center my-5">
+    <!-- <button class=" w-50 btn btn-outline-info to_show" data-toggle="modal" data-target="#myModal">add task from here</button> -->
+    <button class=" w-50 btn btn-outline-info to_show">add task from here</button>
+  </div>
 
 
-    
-    <div class="container">
-      <!-- The Modal -->
-      <div class="modal tohide" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-          
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">add task</h4>
-              <button type="button" class="close hidemod" data-dismiss="modal">&times;</button>
-            </div>
-            
-            <!-- Modal body -->
-            <div class="modal-body text-center bg-dark">
-              <h4 class="text-info">add task</h4>
-              <div class="form-grop">
-                  <input id="result" type="text" class="form-control" placeholder="task">
-                  <button id="addrow" class="btn btn-info m-2">add now</button>
-  
-              </div>
-            </div>
-            
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger hidemod" data-dismiss="modal">Close</button>
-            </div>
-            
+
+  <div class="container">
+    <!-- The Modal -->
+    <div class="modal tohide" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">add task</h4>
+            <button type="button" class="close hidemod" data-dismiss="modal">&times;</button>
           </div>
+
+          <!-- Modal body -->
+          <div class="modal-body text-center bg-dark">
+            <h4 class="text-info">add task</h4>
+            <div class="form-grop">
+              <input id="result" type="text" class="form-control" placeholder="task">
+              <button id="addrow" class="btn btn-info m-2">add now</button>
+
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger hidemod" data-dismiss="modal">Close</button>
+          </div>
+
         </div>
       </div>
     </div>
+  </div>
 
 
 
 
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 p-3">
-                <div class="alltask">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 p-3">
+        <div class="alltask">
 
-                </div>
-                <div class="alert alert-danger maintext">
-                    no data yet
-                </div>
-            </div>
         </div>
+        <div class="alert alert-danger maintext">
+          you don't have any data yet
+        </div>
+      </div>
     </div>
+  </div>
 
 
-<button id="changeback"><i class="fas fa-exchange-alt"></i></button>
-    
+  <button id="changeback"><i class="fas fa-exchange-alt"></i></button>
 
 
 
-    <script src="./js/jquery-3.5.1.slim.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
+
+  <script src="./js/jquery-3.5.1.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>

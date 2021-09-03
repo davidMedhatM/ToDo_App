@@ -1,29 +1,30 @@
-.back{
+.back {
     background-image: url(../images/back1.jpg);
 }
-.back1{
+
+.back1 {
     background-image: url(../images/back2.jpg);
 }
 
-
-
-h1{
+h1 {
     color: brown;
 }
 
-.col-md-8{
+.col-md-8 {
     background-color: cadetblue;
 }
 
 
-.block{
+.block {
     display: block !important;
 }
-.clicked{
+
+.clicked {
     text-decoration: line-through;
     background-color: #222;
 }
-#changeback{
+
+#changeback {
     position: fixed;
     bottom: 10px;
     right: 10px;

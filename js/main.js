@@ -58,6 +58,7 @@ document.addEventListener('click',(e)=>{
 document.addEventListener("click",(e)=>{
   if (e.target.classList.contains('alert-primary')) {
     e.target.classList.toggle('clicked');
+    // to hide the model
   } else if(e.target.classList.contains('hidemod')) {
       hide.classList.remove('block');
   }
