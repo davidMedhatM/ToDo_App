@@ -1,17 +1,20 @@
 .back {
-    background-image: url(../images/back1.jpg);
+    background-image: url(../images/back2.jpg);
+
 }
 
 .back1 {
-    background-image: url(../images/back2.jpg);
+    background-image: url(../images/back1.jpg);
 }
 
 h1 {
     color: brown;
+    text-shadow: maroon 3px 3px 3px;
 }
 
 .col-md-8 {
     background-color: cadetblue;
+    border-radius: 20px;
 }
 
 
@@ -28,4 +31,28 @@ h1 {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0.473);
+    color:indigo ;
+    border-radius: 50%;
+    border: 2px solid indigo;
+}
+
+
+.alltask .alert-primary{
+    transition: all 1s;
+}
+
+.alltask .alert-primary:hover{
+    transform: scale(1.1 , 1.3);
+    background-color:indigo;
+    color: cyan;
+    border-radius: 20px;
+}
+@media(max-width: 600px){
+
+    .alltask .alert-primary:hover{
+        transform: scale(1.0 , 1.2);
+    }    
 }
